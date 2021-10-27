@@ -1,0 +1,16 @@
+[user]
+	name = Patrick Coglan
+	email = coglanpatrick@icloud.com
+[init]
+	defaultBranch = main
+[push]
+	default = current
+[pull]
+	ff = only
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = "code . --wait"
+[core]
+	excludesfile = $HOME/.gitignore_global
+
